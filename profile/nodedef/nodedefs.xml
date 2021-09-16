@@ -33,7 +33,6 @@
             <sends />             
             <accepts>
             <cmd id="QUERY" />
-            <cmd id="REMOVE_NOTICES_ALL" />
             <cmd id="PAON" >
                 <p id="" editor="PUMP" init="GV13" />
                 </cmd>
