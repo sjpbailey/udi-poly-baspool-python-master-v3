@@ -17,7 +17,9 @@ Inputs for Pump Status, Outside air, Pool, Boiler, Solar temperatures, an option
 * Have more than one pool? Just edit the parameter "key" nodes value to match the number of pools you have, then for each BASpi-6u6r added you will then need to add the IP Address for "value" to match each BASpi-6u6r controller, pooip_0-5 is already in the key just add your IP Address(es).
 * You can add up to six (6) pools or nodes with this node serer. Please see the last image below for an example of my pool.
 * This also uses the main energy saving device the Itelliflo pump by Pentiar. It incorporates the Intellicomm II interface for two speed options. If you do not have the Intelliflo you can also be used with across the line start stop of existing pumps with an interface low voltage relay. However using a variable flow pump is the main reason you will be saving energy as my pool run at around 450-600 watts daily for 6 hours and is very clean. I am sure there are relay interfaces for other variable flow/spped pumps I have not looked into and that is up to you because the start stop capibillity is provided.
-* All switching is 24vac or lower on the outputs of the Edge Device or BASpi-6u6r device.
+* All switching is 24vac or lower for all outputs on the Edge or BASpi-6u6r device!
+
+* ALL OUTPUTS ARE LOW VOLTAGE 24VAC OR LESS, USE THE APPROPRIATE INTEFACE RELAY FOR SWITCHING ABOVE 24VAC!!
 
 Please see links below for information & configuration of this Device within Contemporary Controls GUI.
 
