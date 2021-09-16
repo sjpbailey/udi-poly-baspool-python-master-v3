@@ -11,16 +11,7 @@ ND-zone-ICON = Irrigation
 CMD-str-QUERY-NAME = Query
 CMD-str-UPDATE_PROFILE-NAME = Update Profile
 CMD-str-REMOVE_NOTICES_ALL-NAME = Remove All Notices
-ST-str-ST-NAME = NodeServer Online
-ST-str-GV0-NAME = IP Active
 
-# Debug/Logger Modes
-#CDM-9 = Debug + Modules
-#CDM-10 = Debug
-#CDM-20 = Info
-#CDM-30 = Warning
-#CDM-40 = Error
-#CDM-50 = Critical
 
 # Pool Node
 ST-str-GV0-NAME = Outside Air Temp
