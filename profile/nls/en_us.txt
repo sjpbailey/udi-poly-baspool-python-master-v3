@@ -1,0 +1,57 @@
+
+# controller
+ND-ctl-NAME = Irrigation Control
+ND-ctl-ICON = Irrigation
+ST-ctl-ST-NAME = NodeServer Online
+#ST-ctl-GV0-NAME = Number of childeren
+CMD-ctl-DISCOVER-NAME = Re-Discover
+
+ND-zone-NAME = Pool Control
+ND-zone-ICON = Irrigation
+CMD-str-QUERY-NAME = Query
+CMD-str-UPDATE_PROFILE-NAME = Update Profile
+CMD-str-REMOVE_NOTICES_ALL-NAME = Remove All Notices
+ST-str-ST-NAME = NodeServer Online
+ST-str-GV0-NAME = IP Active
+
+# Debug/Logger Modes
+#CDM-9 = Debug + Modules
+#CDM-10 = Debug
+#CDM-20 = Info
+#CDM-30 = Warning
+#CDM-40 = Error
+#CDM-50 = Critical
+
+# Pool Node
+ST-str-GV0-NAME = Outside Air Temp
+ST-str-GV1-NAME = Pool Temp
+ST-str-GV2-NAME = Heating Temp
+ST-str-GV3-NAME = Solar Temp
+ST-str-GV4-NAME = Filter PSI
+ST-str-GV26-NAME = -
+
+ST-str-GV13-NAME = Pump Control
+ST-str-GV5-NAME = Pump Status
+ST-str-GV14-NAME = Valve Control
+ST-str-GV16-NAME = Heat
+ST-str-GV15-NAME = Light
+ST-str-GV20-NAME = -
+
+CMD-str-PAON-NAME = Pump Speed
+CMD-str-PBON-NAME = Valve Control
+CMD-str-PCON-NAME = Light
+CMD-str-PDON-NAME = Heat
+
+PUMP-0 = High Speed
+PUMP-1 = Off
+PUMP-2 = Low Speed
+
+VALVE-0 = Skim
+VALVE-1 = Stop
+VALVE-2 = Sweep
+
+HEAT-0 = Disabled
+HEAT-1 = Auto
+
+LIGHT-0 = Off
+LIGHT-1 = On

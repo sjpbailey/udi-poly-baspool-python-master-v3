@@ -1,0 +1,42 @@
+{
+	"name": "BASPOOL",
+	"docs": "https://github.com/sjpbailey/udi-poly-baspool-python-master-v3",
+	"type": "python3",
+	"executable": "BASPOOL.py",
+	"install": "install.sh",
+	"description": "WiFi Pool Controller for pool sweep Valve control, two speed Pump control, Pool Light & Heat Control",
+	"notice": "Please follow all codes & safety precautions for mechanical equipment",
+	"shortPoll": "120",
+	"longPoll": "240",
+	"testMode": false,
+	"logLevel": "INFO",
+	"profile_version": "3.0.1",
+	"customParams": {
+		"nodes": "0",
+		"poolip_0": "127.0.0.1",
+		"poolip_1": "",
+		"poolip_2": "",
+		"poolip_3": "",
+		"poolip_4": "",
+		"poolip_5": ""		
+	},
+	"credits": [
+		{
+			"title": "Pool Controller: Wifi Pool Control For Pentair Pump with Light and Heating control",
+			"author": "Steve Bailey (sjpbailey)",
+			"version": "3.0.1",
+			"date": "August 14, 2021",
+			"source": "https://github.com/sjpbailey/udi-poly-baspool-python-master-v3",
+			"license": "https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/LICENSE"
+		}
+	],
+	"store": {
+		"developer": "sjpbailey1961@gmail.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
+}

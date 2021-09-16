@@ -1,0 +1,53 @@
+<nodeDefs>
+    <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+    <!-- controller, this must mach the id in your Controller class-->
+    <nodeDef id="ctl" nodeType="139" nls="ctl">
+            <sts>
+                <st id="ST" editor="bool" />
+                <!--<st id="GV0" editor="raw" />-->
+            </sts>
+            <cmds>
+                <sends />
+                <accepts>
+            <cmd id="DISCOVER" />
+            </accepts>
+            </cmds>
+    </nodeDef>
+    <nodeDef id="zone" nls="str">
+        <editors />
+        <sts>
+            <st id="GV0" editor="FAHVAL" />
+            <st id="GV1" editor="FAHVAL" />
+            <st id="GV2" editor="FAHVAL" />
+            <st id="GV3" editor="FAHVAL" />
+            <st id="GV4" editor="PSIVAL" />
+            <st id="GV26" editor="STATUS" />
+            <st id="GV13" editor="PUMP" />
+            <st id="GV5" editor="STATUS" />
+            <st id="GV20" editor="STATUS" />
+            <st id="GV14" editor="VALVE" />
+            <st id="GV16" editor="HEAT" />
+            <st id="GV15" editor="LIGHT" />
+            <st id="ST" editor="bool" />
+        </sts>
+        <cmds>
+            <sends />             
+            <accepts>
+            <cmd id="QUERY" />
+            <cmd id="REMOVE_NOTICES_ALL" />
+            <cmd id="PAON" >
+                <p id="" editor="PUMP" init="GV13" />
+                </cmd>
+            <cmd id="PBON" >
+                <p id="" editor="VALVE" init="GV14" />
+                </cmd>
+            <cmd id="PDON" >
+                <p id="" editor="HEAT" init="GV16" />
+                </cmd>
+            <cmd id="PCON" >
+                <p id="" editor="LIGHT" init="GV15" />
+                </cmd>
+            </accepts>
+        </cmds>
+    </nodeDef>
+</nodeDefs>

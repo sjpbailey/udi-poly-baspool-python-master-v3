@@ -1,0 +1,43 @@
+<editors>
+    <!-- Boolean -->
+    <editor id="bool">
+        <range uom="2" subset="0,1" />
+    </editor>
+
+    <editor id="I_DEBUG">
+        <range uom="25" subset="9,10,20,30,40,50" nls="CDM"/>
+    </editor>
+
+    <editor id="RAWVAL">
+        <range uom="56" min="0" max="10000" prec="0" />
+    </editor>
+
+    <editor id="FAHVAL">
+        <range uom="17" min="0" max="10000" prec="0" />
+    </editor>
+
+    <editor id="PSIVAL">
+        <range uom="52" min="0" max="10000" prec="0" />
+    </editor>
+
+    <editor id="PUMP">
+        <range uom="25" subset="0-2" nls="PUMP" />
+    </editor>
+
+    <editor id="VALVE">
+        <range uom="25" subset="0-2" nls="VALVE" />
+    </editor>
+
+    <editor id="HEAT">
+        <range uom="25" subset="0-1" nls="HEAT" />
+    </editor>
+
+    <editor id="LIGHT">
+        <range uom="25" subset="0-1" nls="LIGHT" />
+    </editor>
+
+    <editor id="STATUS">
+        <range uom="80" subset="0,1" />
+    </editor>
+
+</editors>
