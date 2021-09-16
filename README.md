@@ -81,4 +81,4 @@ Please see links below for information & configuration of this Device within Con
 
 * Pool Polyglot Configuration
 
-![BASPOOL Polyglot Configuration](https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/blob/96c5c65bc36aceb86f044b4f204713e52e2a0818/Archive-images/Polyglot-config.png)
+![BASPOOL Polyglot Configuration](https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/blob/4c1e490fcd107386464fbba1d0ce24e7f741988c/Archive-images/Polyglot-config.png)
