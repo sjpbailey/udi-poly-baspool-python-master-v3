@@ -36,7 +36,7 @@ Please see links below for information & configuration of this Device within Con
 
 * This Network BAS series will include in the near future custom home control for Garage Door, Well Pump Control, HVAC, VVT, Boiler, along with any custom control you create utilizing the pip bascontrolns module <https://pypi.org/project/bascontrolns/>.
 
-* This controller sits on a Raspberry Pi. You can easily add it to your ISY after you configure its ipaddress.
+* This controller sits on a Raspberry Pi. You can easily add it to your ISY after you configure its ipaddress. You can also use a USB camera for visual ability using VLC or VCN on your rasperry pi.
 
 * Pool ISY Control
 
