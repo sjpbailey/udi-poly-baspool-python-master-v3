@@ -79,7 +79,7 @@ Please see links below for information & configuration of this Device within Con
 
 ###### Defaults
 
-* Default Short Poll:  Every 60 seconds
+* Default Short Poll:  Every 2 minutes
 * Default Long Poll: Every 4 minutes (heartbeat)
 
 ###### Requirments
