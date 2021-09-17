@@ -27,6 +27,10 @@ Please see links below for information & configuration of this Device within Con
 
 [Intellicomm II](https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/blob/ee737e521417fd444bea6171df800e65cc61c6c0/Archive-images/IntelliComm_II_Interface_Adapter_English.pdf)
 
+[Intermatic Actuator](https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/blob/a71b7edee69c9a22be34a150c644335e8ad80910/Archive-images/Intermatic-valve-actuator.pdf)
+
+[Jandy Valve](https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/blob/a71b7edee69c9a22be34a150c644335e8ad80910/Archive-images/Jandy-valve.PDF)
+
 ![CAD Wiring](https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/blob/a70bd778c9fcdfd42ddf0ad7fae1f9bfd7dbe54f/Archive-images/Pool-CAD.png)
 
 * This Network BAS series will include in the near future custom home control for Garage Door, Well Pump Control, HVAC, VVT, Boiler, along with any custom control you create utilizing the pip bascontrolns module <https://pypi.org/project/bascontrolns/>.
