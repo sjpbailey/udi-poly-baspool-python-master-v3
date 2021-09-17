@@ -6,10 +6,10 @@
 
 ## Reasons
 
-* The purpose of this Nodeserver is to replace a conventional time clock pool control systems. This custom control through the ISY for your Pool and general Home automation for multiple control operations, WiFi, IP, BACnet.
+* The purpose of this Nodeserver is to replace a conventional time clock pool control systems. This custom control through the ISY for your Pool and general Home automation for multiple control operations, WiFi, IP, BACnet. there is no internal logic in the Contemporary Controls BASpi device all interlocks for heat are done within this poly all other control is done through the ISY programming.
 
 * It utilizes Contemporary Controls BASpi-6U6R or the BASpi-Edge-6U6R BACnet control Modules. Using the IntellicommII interface from Pentiar for High and Low Speed settings for a Penteir Intelliflo VFD pump.
-Valve control for sweep or skim control.
+Valve control for sweep or skim control it utilizes a Intermatic Actuator and a Jandy valve (or equivilent).
 Heat output for boiler or solar heating using a 24vac relay.
 Light output for pool light.
 Inputs for Pump Status, Outside air, Pool, Boiler, Solar temperatures, an optional PSI input for filter pressure. BOILER WILL NOT RUN WITHOUT PUMP RUNNING AND PUMP STATUS ON!
@@ -17,6 +17,7 @@ Inputs for Pump Status, Outside air, Pool, Boiler, Solar temperatures, an option
 * Have more than one pool? Just edit the parameter "key" nodes value to match the number of pools you have, then for each BASpi-6u6r added you will then need to add the IP Address for "value" to match each BASpi-6u6r controller, pooip_0-5 is already in the key just add your IP Address(es).
 * You can add up to six (6) pools or nodes with this node serer. Please see the last image below for an example of my pool.
 * This also uses the main energy saving device the Itelliflo pump by Pentiar. It incorporates the Intellicomm II interface for two speed options. If you do not have the Intelliflo you can also be used with across the line start stop of existing pumps with an interface low voltage relay. However using a variable flow pump is the main reason you will be saving energy as my pool run at around 450-600 watts daily for 6 hours and is very clean. I am sure there are relay interfaces for other variable flow/spped pumps I have not looked into and that is up to you because the start stop capibillity is provided.
+
 * All switching is 24vac or lower for all outputs on the Edge or BASpi-6u6r device!
 
 * ALL OUTPUTS ARE LOW VOLTAGE 24VAC OR LESS, USE THE APPROPRIATE INTEFACE RELAY FOR SWITCHING ABOVE 24VAC!!
