@@ -10,7 +10,7 @@
 	"longPoll": "240",
 	"testMode": false,
 	"logLevel": "INFO",
-	"profile_version": "3.0.1",
+	"profile_version": "3.0.2",
 	"customParams": {
 		"nodes": "0",
 		"poolip_0": "127.0.0.1",
@@ -18,13 +18,13 @@
 		"poolip_2": "",
 		"poolip_3": "",
 		"poolip_4": "",
-		"poolip_5": ""		
+		"poolip_5": ""
 	},
 	"credits": [
 		{
 			"title": "Pool Controller: Wifi Pool Control For Pentair Pump with Light and Heating control",
 			"author": "Steve Bailey (sjpbailey)",
-			"version": "3.0.1",
+			"version": "3.0.2",
 			"date": "August 14, 2021",
 			"source": "https://github.com/sjpbailey/udi-poly-baspool-python-master-v3",
 			"license": "https://github.com/sjpbailey/udi-poly-baspool-python-master-v3/LICENSE"
