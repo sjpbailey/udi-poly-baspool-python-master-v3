@@ -206,17 +206,16 @@ class PoolNode(udi_interface.Node):
         {'driver': 'GV3', 'value': 1, 'uom': 17},
         {'driver': 'GV4', 'value': 1, 'uom': 52},
         {'driver': 'GV5', 'value': 1, 'uom': 80},
+        {'driver': 'GV6', 'value': 1, 'uom': 80},
+        {'driver': 'GV7', 'value': 1, 'uom': 80},
+        {'driver': 'GV8', 'value': 1, 'uom': 80},
+        {'driver': 'GV9', 'value': 1, 'uom': 80},
+        {'driver': 'GV10', 'value': 0, 'uom': 80},
+        {'driver': 'GV11', 'value': 0, 'uom': 80},
         {'driver': 'GV13', 'value': 1, 'uom': 25},
         {'driver': 'GV14', 'value': 1, 'uom': 25},
         {'driver': 'GV15', 'value': 0, 'uom': 25},
         {'driver': 'GV16', 'value': 0, 'uom': 25},
-        #{'driver': 'GV6', 'value': 1, 'uom': 80},
-        #{'driver': 'GV7', 'value': 1, 'uom': 80},
-        #{'driver': 'GV8', 'value': 1, 'uom': 80},
-        #{'driver': 'GV9', 'value': 1, 'uom': 80},
-        #{'driver': 'GV10', 'value': 0, 'uom': 80},
-        #{'driver': 'GV11', 'value': 0, 'uom': 80},
-
 
     ]
 
