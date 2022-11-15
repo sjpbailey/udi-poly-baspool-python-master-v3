@@ -27,6 +27,12 @@ ST-str-GV14-NAME = Valve Control
 ST-str-GV16-NAME = Heat
 ST-str-GV15-NAME = Light
 ST-str-GV20-NAME = -
+ST-str-GV6-NAME = Valve Skim Status
+ST-str-GV7-NAME = Valve Sweep Status
+ST-str-GV8-NAME = Boiler Heat Status
+ST-str-GV9-NAME = Pool Light Status
+ST-str-GV10-NAME = High Speed Status
+ST-str-GV11-NAME = low Speed Status
 
 CMD-str-PAON-NAME = Pump Speed
 CMD-str-PBON-NAME = Valve Control
