@@ -2,16 +2,16 @@
     <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
     <!-- controller, this must mach the id in your Controller class-->
     <nodeDef id="ctl" nodeType="139" nls="ctl">
-            <sts>
-                <st id="ST" editor="bool" />
-                <!--<st id="GV0" editor="raw" />-->
-            </sts>
-            <cmds>
-                <sends />
-                <accepts>
-            <cmd id="DISCOVER" />
+        <sts>
+            <st id="ST" editor="bool" />
+            <!--<st id="GV0" editor="raw" />-->
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DISCOVER" />
             </accepts>
-            </cmds>
+        </cmds>
     </nodeDef>
     <nodeDef id="zone" nls="str">
         <editors />
@@ -30,20 +30,20 @@
             <st id="GV15" editor="LIGHT" />
         </sts>
         <cmds>
-            <sends />             
+            <sends />
             <accepts>
-            <cmd id="QUERY" />
-            <cmd id="PAON" >
-                <p id="" editor="PUMP" init="GV13" />
+                <cmd id="QUERY" />
+                <cmd id="PAON">
+                    <p id="" editor="PUMP" init="GV13" />
                 </cmd>
-            <cmd id="PBON" >
-                <p id="" editor="VALVE" init="GV14" />
+                <cmd id="PBON">
+                    <p id="" editor="VALVE" init="GV14" />
                 </cmd>
-            <cmd id="PDON" >
-                <p id="" editor="HEAT" init="GV16" />
+                <cmd id="PDON">
+                    <p id="" editor="HEAT" init="GV16" />
                 </cmd>
-            <cmd id="PCON" >
-                <p id="" editor="LIGHT" init="GV15" />
+                <cmd id="PCON">
+                    <p id="" editor="LIGHT" init="GV15" />
                 </cmd>
             </accepts>
         </cmds>
