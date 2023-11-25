@@ -3,7 +3,7 @@
 ND-ctl-NAME = Irrigation Control
 ND-ctl-ICON = Irrigation
 ST-ctl-ST-NAME = NodeServer Online
-#ST-ctl-GV0-NAME = Number of childeren
+#ST-ctl-GV0-NAME = Number of children
 CMD-ctl-DISCOVER-NAME = Re-Discover
 
 ND-zone-NAME = Pool Control
@@ -33,6 +33,7 @@ ST-str-GV8-NAME = Boiler Heat Status
 ST-str-GV9-NAME = Pool Light Status
 ST-str-GV10-NAME = High Speed Status
 ST-str-GV11-NAME = low Speed Status
+ST-str-ST-NAME = Online
 
 CMD-str-PAON-NAME = Pump Speed
 CMD-str-PBON-NAME = Valve Control

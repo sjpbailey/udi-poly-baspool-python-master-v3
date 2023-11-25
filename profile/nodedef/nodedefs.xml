@@ -28,6 +28,7 @@
             <st id="GV14" editor="VALVE" />
             <st id="GV16" editor="HEAT" />
             <st id="GV15" editor="LIGHT" />
+            <st id="ST" editor="bool" />
         </sts>
         <cmds>
             <sends />

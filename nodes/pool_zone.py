@@ -40,7 +40,7 @@ class PoolNode(udi_interface.Node):
 
     def start(self):
         if self.ipaddress is not None:
-            # Which Device is installed BASpi-Edge-6u6r or BASpi-6u6r
+            ### Do we have a BASpi or an Edge Device ###
             self.bc = Device(self.ipaddress)
             if self.bc.ePlatform == Platform.BASC_NONE:
                 LOGGER.info('Unable to connect')
@@ -53,6 +53,8 @@ class PoolNode(udi_interface.Node):
                 LOGGER.info(str(self.bc.boQty) +
                             ' Binary outputs in this BASpi Pool')
                 LOGGER.info("BASpiPool IO Points configured")
+            elif self.bc.ePlatform == Platform.BASC_AO or self.bc.ePlatform == Platform.BASC_EO : ### BASpi-6u4r2ao Device found
+                LOGGER.info('connected to BASpi-6u4r2ao and will not work for this Plugin')
             else:
                 pass
             if self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_ED:
