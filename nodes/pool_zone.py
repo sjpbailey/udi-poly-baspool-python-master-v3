@@ -55,6 +55,10 @@ class PoolNode(udi_interface.Node):
                 LOGGER.info("BASpiPool IO Points configured")
             else:
                 pass
+            if self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_ED:
+                self.setDriver("ST", 1)
+            else:
+                self.setDriver("ST", 0)
 
             # Input Output Status
             # Universal Inputs Status
