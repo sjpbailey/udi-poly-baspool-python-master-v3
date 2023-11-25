@@ -53,7 +53,7 @@ class PoolNode(udi_interface.Node):
                 LOGGER.info(str(self.bc.boQty) +
                             ' Binary outputs in this BASpi Pool')
                 LOGGER.info("BASpiPool IO Points configured")
-            elif self.bc.ePlatform == Platform.BASC_AO or self.bc.ePlatform == Platform.BASC_EO : ### BASpi-6u4r2ao Device found
+            elif self.bc.ePlatform == Platform.BASC_AO or self.bc.ePlatform == Platform.BASC_ED : ### BASpi-6u4r2ao Device found
                 LOGGER.info('connected to BASpi-6u4r2ao and will not work for this Plugin')
             else:
                 pass
